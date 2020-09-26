@@ -1,0 +1,457 @@
+Script started on Fri 25 Sep 2020 08:40:08 PM EDT
+]0;emamedal@sol28:~[?1034h[emamedal@sol28 ~]$ exithelp[2Plssudo apt-get install imagemagick[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kvi screen.log [4Pscreen.logecho screen.log [1Pcat[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscript screen.logls[Kcat -n song_artist.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kbash myScript.sh ls[Kbash myScript.sh ls[Krm -d regional-global-daily-latest.csv.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm -d song_artist.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat -n song_artist.txt [3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kbash myScript.sh [2Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[2@bash[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvi[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kvi myScript.sh ls[Kbash myScript.sh [2Pvi[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kvi myScript.sh ls[Khead song_artist.txt [2@cat -n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@head[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pbash myScript.sh[C[2Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[8@cat -n song_artist.txt[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kbash myScript.sh ls[Kvi myScript.shls[Krm -d myScript.shpwd[K[1Pls#!/bin/shbash  myScript.shls[K#!/sh[3Plsecho > myScript.shxit[Kcat -n chart_songs.txt [41@ut -d, -f 2 regional-global-daily-latest.csv >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/regional-global-daily-latest.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat -n chart_songs.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat -n chart_songs.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kwget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/regional-global-daily-latest.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pcut -d, -f 2 regional-global-daily-latest.csv > chart_songs.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/regional-global-daily-latest.csv[CLregional-global-daily-latest.csvAregional-global-daily-latest.csvBregional-global-daily-latest.csv5regional-global-daily-latest.csv/regional-global-daily-latest.csv
+--2020-09-25 20:40:37--  https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/LAB5/regional-global-daily-latest.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 199.232.36.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|199.232.36.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 19695 (19K) [text/plain]
+Saving to: ‘regional-global-daily-latest.csv.6’
+
+ 0% [                                                                                                                          ] 0           --.-K/s              100%[=========================================================================================================================>] 19,695      --.-K/s   in 0.002s  
+
+2020-09-25 20:40:42 (9.29 MB/s) - ‘regional-global-daily-latest.csv.6’ saved [19695/19695]
+
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ cut -d, -f 2 regional-global-daily-latest.csv > chart_songs.txt [C[1@_[1@o[1@n[1@l[1@y[C[C[C[C[C
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ cat -n son[K[K[Kchart_songs_only.txt 
+     1	
+     2	"Track Name"
+     3	"Mood (feat. Iann Dior)"
+     4	"WAP (feat. Megan Thee Stallion)"
+     5	Hawái
+     6	Dynamite
+     7	"Holy (feat. Chance The Rapper)"
+     8	"Lemonade (feat. Gunna
+     9	"Watermelon Sugar"
+    10	"Blinding Lights"
+    11	"Savage Love (Laxed - Siren Beat)"
+    12	"ROCKSTAR (feat. Roddy Ricch)"
+    13	"For The Night (feat. Lil Baby & DaBaby)"
+    14	"Laugh Now Cry Later (feat. Lil Durk)"
+    15	"Head & Heart (feat. MNEK)"
+    16	Heather
+    17	"POPSTAR (feat. Drake)"
+    18	"you broke me first"
+    19	"Relación - Remix"
+    20	"Roses - Imanbek Remix"
+    21	"Mood Swings (feat. Lil Tjay)"
+    22	"Breaking Me"
+    23	"Ice Cream (with Selena Gomez)"
+    24	"Ay
+    25	"UN DIA (ONE DAY) (Feat. Tainy)"
+    26	"La Curiosidad"
+    27	"Dance Monkey"
+    28	"Come & Go (with Marshmello)"
+    29	"Someone You Loved"
+    30	"La Jeepeta - Remix"
+    31	"Before You Go"
+    32	"Tattoo - Remix with Camilo"
+    33	Caramelo
+    34	"death bed (coffee for your head)"
+    35	"Take You Dancing"
+    36	"Midnight Sky"
+    37	"Rain On Me (with Ariana Grande)"
+    38	"Wishing Well"
+    39	"WHATS POPPIN (feat. DaBaby
+    40	"Blueberry Faygo"
+    41	"Go Crazy"
+    42	"Agua (with J Balvin) - Music From ""Sponge On The Run"" Movie"
+    43	"Me Gusta (with Cardi B & Myke Towers)"
+    44	"Don't Start Now"
+    45	"Kings & Queens"
+    46	"Una Locura"
+    47	"Stuck with U (with Justin Bieber)"
+    48	"Mad at Disney"
+    49	"Mi Cuarto"
+    50	"GREECE (feat. Drake)"
+    51	"Break My Heart"
+    52	"Djadja (feat. Maluma) - Remix"
+    53	"How You Like That"
+    54	Diamonds
+    55	goosebumps
+    56	"Smile (with The Weeknd)"
+    57	Circles
+    58	"ily (i love you baby) (feat. Emilee)"
+    59	"The Woo (feat. 50 Cent & Roddy Ricch)"
+    60	"The Box"
+    61	"Put Your Records On"
+    62	"Toosie Slide"
+    63	"La Tóxica"
+    64	"Lucid Dreams"
+    65	"Adore You"
+    66	"Still Don't Know My Name"
+    67	"Party Girl"
+    68	Falling
+    69	"Intentions (feat. Quavo)"
+    70	"Sunflower - Spider-Man: Into the Spider-Verse"
+    71	"Mamichula - con Nicki Nicole"
+    72	"Ayer Me Llamó Mi Ex (feat. Lenny Santos)"
+    73	"What You Know Bout Love"
+    74	Robbery
+    75	"HIGHEST IN THE ROOM"
+    76	"SICKO MODE"
+    77	Memories
+    78	Señorita
+    79	"Lean (feat. Towy
+    80	Despeinada
+    81	Tusa
+    82	"my ex's best friend (with blackbear)"
+    83	Relación
+    84	MAMACITA
+    85	"Electric Love"
+    86	"bad guy"
+    87	"lovely (with Khalid)"
+    88	"Wolves (feat. Post Malone)"
+    89	Dior
+    90	ROXANNE
+    91	Shallow
+    92	"Jerusalema (feat. Nomcebo Zikode)"
+    93	"Caramelo - Remix"
+    94	"Hasta Que Dios Diga"
+    95	Jeans
+    96	Believer
+    97	"Stunnin' (feat. Harm Franklin)"
+    98	"You Got It"
+    99	"If the World Was Ending - feat. Julia Michaels"
+   100	Falling
+   101	"Life Is Good (feat. Drake)"
+   102	"OK Not To Be OK"
+   103	"THE SCOTTS"
+   104	cardigan
+   105	"In Your Eyes"
+   106	"Say So"
+   107	Azul
+   108	"Don Don"
+   109	"Ride It"
+   110	"Bande organisée"
+   111	"Lets Link"
+   112	"Be Like That - feat. Swae Lee & Khalid"
+   113	"TKN (feat. Travis Scott)"
+   114	"everything i wanted"
+   115	"Se Te Nota (with Guaynaa)"
+   116	"Oh Juliana"
+   117	Favorito
+   118	"Jocelyn Flores"
+   119	"Sunday Best"
+   120	"Got It On Me"
+   121	"Tick Tock (feat. 24kGoldn)"
+   122	"Say You Won't Let Go"
+   123	"Parce (feat. Justin Quiles)"
+   124	"All Girls Are The Same"
+   125	"feel something"
+   126	"my future"
+   127	Supalonely
+   128	"After Party"
+   129	"Elegí (feat. Dímelo Flow)"
+   130	"Be Kind (with Halsey)"
+   131	"Martin & Gina"
+   132	"Play Date"
+   133	"PORFA Remix ( Feat. Maluma
+   134	"Hello (feat. A Boogie Wit da Hoodie)"
+   135	Madrid
+   136	"hot girl bummer"
+   137	"Yo Perreo Sola"
+   138	SAD!
+   139	Perfect
+   140	"Bohemian Rhapsody - 2011 Mix"
+   141	"I Don't Care (with Justin Bieber)"
+   142	"Tap In"
+   143	"7 rings"
+   144	"Over Now (with The Weeknd)"
+   145	"Godzilla (feat. Juice WRLD)"
+   146	Daisy
+   147	"Are You Bored Yet? (feat. Clairo)"
+   148	"Shape of You"
+   149	"Investe Em Mim"
+   150	"Someone To You"
+   151	Safaera
+   152	"rockstar (feat. 21 Savage)"
+   153	Rojo
+   154	"Sweater Weather"
+   155	"when the party's over"
+   156	"Quiéreme Mientras Se Pueda"
+   157	"All of Me"
+   158	"Be Alright"
+   159	Secrets
+   160	"WHATS POPPIN"
+   161	"Get You The Moon (feat. Snøw)"
+   162	Righteous
+   163	21
+   164	"exile (feat. Bon Iver)"
+   165	"24 (feat. Lil Baby)"
+   166	"Recairei - Ao Vivo"
+   167	"Blastoff (feat. Juice Wrld & Trippie Redd)"
+   168	"No Guidance (feat. Drake)"
+   169	"Tak Tiki Tak"
+   170	"Star Shopping"
+   171	"Hate The Other Side (with Marshmello & The Kid Laroi)"
+   172	Happier
+   173	+Linda
+   174	"Beautiful People (feat. Khalid)"
+   175	GOOBA
+   176	Moonlight
+   177	"Dolly (with Lil Uzi Vert)"
+   178	"Without Me"
+   179	"The Less I Know The Better"
+   180	"Money Trees"
+   181	Conversations
+   182	"Chicago Freestyle (feat. Giveon)"
+   183	"DEUX TOILES DE MER"
+   184	"Boy With Luv (feat. Halsey)"
+   185	"Take Me To Church"
+   186	"GO (feat. Juice WRLD)"
+   187	"OUT WEST (feat. Young Thug)"
+   188	Bruises
+   189	Jangueo
+   190	"Head Shoulders Knees & Toes (feat. Norma Jean Martine)"
+   191	"Lose Control"
+   192	"Let Her Go"
+   193	July
+   194	"Something Just Like This"
+   195	"It's You"
+   196	"10
+   197	"BXL ZOO"
+   198	"CÓMO SE SIENTE - Remix"
+   199	Riptide
+   200	"Lose Somebody"
+   201	"El Mismo Aire - con Pablo Alborán"
+   202	"Daddy Issues"
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ echo "Next step is to make a script"
+Next step is to make a script
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ echo > myScriptforLog.sh
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ vi myScriptforLog.sh 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;54r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[54;1H"myScriptforLog.sh" 1L, 1C[>c[27m[m[H[2J[2;1H[94m~                                                                                                                                                                  [3;1H~                                                                                                                                                                  [4;1H~                                                                                                                                                                  [5;1H~                                                                                                                                                                  [6;1H~                                                                                                                                                                  [7;1H~                                                                                                                                                                  [8;1H~                                                                                                                                                                  [9;1H~                                                                                                                                                                  [10;1H~                                                                                                                                                                  [11;1H~                                                                                                                                                                  [12;1H~                                                                                                                                                                  [13;1H~                                                                                                                                                                  [14;1H~                                                                                                                                                                  [15;1H~                                                                                                                                                                  [16;1H~                                                                                                                                                                  [17;1H~                                                                                                                                                                  [18;1H~                                                                                                                                                                  [19;1H~                                                                                                                                                                  [20;1H~                                                                                                                                                                  [21;1H~                                                                                                                                                                  [22;1H~                                                                                                                                                                  [23;1H~                                                                                                                                                                  [24;1H~                                                                                                                                                                  [25;1H~                                                                                                                                                                  [26;1H~                                                                                                                                                                  [27;1H~                                                                                                                                                                  [28;1H~                                                                                                                                                                  [29;1H~                                                                                                                                                                  [30;1H~                                                                                                                                                                  [31;1H~                                                                                                                                                                  [32;1H~                                                                                                                                                                  [33;1H~                                                                                                                                                                  [34;1H~                                                                                                                                                                  [35;1H~                                                                                                                                                                  [36;1H~                                                                                                                                                                  [37;1H~                                                                                                                                                                  [38;1H~                                                                                                                                                                  [39;1H~                                                                                                                                                                  [40;1H~                                                                                                                                                                  [41;1H~                                                                                                                                                                  [42;1H~                                                                                                                                                                  [43;1H~                                                                                                                                                                  [44;1H~                                                                                                                                                                  [45;1H~                                                                                                                                                                  [46;1H~                                                                                                                                                                  [47;1H~                                                                                                                                                                  [48;1H~                                                                                                                                                                  [49;1H~                                                                                                                                                                  [50;1H~                                                                                                                                                                  [51;1H~                                                                                                                                                                  [52;1H~                                                                                                                                                                  [53;1H~                                                                                                                                                                  [m[54;146H1,0-1[9CAll"myScriptforLog.sh" 1L, 1C[119C     [9C   [1;1H[?12l[?25h[?25l[54;1H[1m-- INSERT --[m[54;13H[K[54;146H1,1[11CAll[1;1H[?12l[?25h[?25lwget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/
+master/LAB5/regional-global-daily-latest.csv[2;45H[K[3;1H[K[54;146H3[3;1H[?12l[?25h[?25l[54;146H2[2;1H[?12l[?25h[?25l[1;53r[53;1H
+[1;54r[1;1Hwget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/LAB5/regional-global-daily-latest.csv[53;1H[94m~                                                                                                                                                                  [m[54;146H[K[54;146H1,64[10CAll[1;64H[?12l[?25h[?25l[54;146H2,1 [2;1H[?12l[?25h[?25lcut [35m-d[m, [35m-f[m [31m2[m regional-global-daily-latest.csv [38;5;130m>[m chart_songs.txt[54;148H64[2;64H[?12l[?25h[?25l[54;149H3[2;63H[?12l[?25h[?25l[54;149H2[2;62H[?12l[?25h[?25l[54;149H1[2;61H[?12l[?25h[?25l[54;149H0[2;60H[?12l[?25h[?25l[54;148H59[2;59H[?12l[?25h[?25l[54;149H8[2;58H[?12l[?25h[?25l[54;149H7[2;57H[?12l[?25h[?25l[54;149H6[2;56H[?12l[?25h[?25l[54;149H5[2;55H[?12l[?25h[?25l[54;149H4[2;54H[?12l[?25h[?25l[54;149H3[2;53H[?12l[?25h[?25l[54;149H2[2;52H[?12l[?25h[?25l[54;149H1[2;51H[?12l[?25h[?25l[54;149H0[2;50H[?12l[?25h[?25l[54;148H49[2;49H[?12l[?25h[?25l[54;149H8[2;48H[?12l[?25h[?25l[54;149H7[2;47H[?12l[?25h[?25l[54;149H6[2;46H[?12l[?25h[?25l[54;149H5[2;45H[?12l[?25h[?25l[54;149H4[2;44H[?12l[?25h[?25l[54;149H3[2;43H[?12l[?25h[?25l[54;149H2[2;42H[?12l[?25h[?25l[54;149H1[2;41H[?12l[?25h[?25l[54;149H0[2;40H[?12l[?25h[?25l[54;148H39[2;39H[?12l[?25h[?25l[54;149H8[2;38H[?12l[?25h[?25l[54;149H7[2;37H[?12l[?25h[?25l[54;149H6[2;36H[?12l[?25h[?25l[54;149H5[2;35H[?12l[?25h[?25l[54;149H4[2;34H[?12l[?25h[?25l[54;149H3[2;33H[?12l[?25h[?25l[54;149H2[2;32H[?12l[?25h[?25l[54;149H1[2;31H[?12l[?25h[?25l[54;149H0[2;30H[?12l[?25h[?25l[54;148H29[2;29H[?12l[?25h[?25l[54;148H30[2;30H[?12l[?25h[?25l[54;149H1[2;31H[?12l[?25h[?25l[54;149H2[2;32H[?12l[?25h[?25l[54;149H3[2;33H[?12l[?25h[?25l[54;149H4[2;34H[?12l[?25h[?25l[54;149H5[2;35H[?12l[?25h[?25l[54;149H6[2;36H[?12l[?25h[?25l[54;149H7[2;37H[?12l[?25h[?25l[54;149H8[2;38H[?12l[?25h[?25l[54;149H9[2;39H[?12l[?25h[?25l[54;148H4[2;49H[?12l[?25h[?25l[54;148H50[2;50H[?12l[?25h[?25l[54;149H1[2;51H[?12l[?25h[?25l[54;149H2[2;52H[?12l[?25h[?25l[54;149H3[2;53H[?12l[?25h[?25l[54;149H4[2;54H[?12l[?25h[?25l[54;149H5[2;55H[?12l[?25h[?25lsongs.txt[2;63H[K[54;149H4[2;54H[?12l[?25h[?25lsongs.txt[2;62H[K[54;149H3[2;53H[?12l[?25h[?25lsongs.txt[2;61H[K[54;149H2[2;52H[?12l[?25h[?25lsongs.txt[2;60H[K[54;149H1[2;51H[?12l[?25h[?25lsongs.txt[2;59H[K[54;149H0[2;50H[?12l[?25h[?25lsongs.txt[2;58H[K[54;148H49[2;49H[?12l[?25h[?25l[54;148H50[2;50H[?12l[?25h[?25l[54;149H1[2;51H[?12l[?25h[?25l[54;149H2[2;52H[?12l[?25h[?25l[54;149H3[2;53H[?12l[?25h[?25l[54;149H4[2;54H[?12l[?25h[?25l[54;149H5[2;55H[?12l[?25h[?25l[54;149H6[2;56H[?12l[?25h[?25l[54;149H5[2;55H[?12l[?25h[?25l[54;149H4[2;54H[?12l[?25h[?25l_.txt[54;149H5[2;55H[?12l[?25h[?25la.txt[54;149H6[2;56H[?12l[?25h[?25lr.txt[54;149H7[2;57H[?12l[?25h[?25lt.txt[54;149H8[2;58H[?12l[?25h[?25li.txt[54;149H9[2;59H[?12l[?25h[?25ls.txt[54;148H60[2;60H[?12l[?25h[?25lt.txt[54;149H1[2;61H[?12l[?25h[?25l_.txt[54;149H2[2;62H[?12l[?25h[?25l.txt[2;65H[K[54;149H1[2;61H[?12l[?25h[?25ls.txt[54;149H2[2;62H[?12l[?25h[?25l_st.txt[54;149H5[2;65H[?12l[?25h[?25lr.txt[54;149H6[2;66H[?12l[?25h[?25le.txt[54;149H7[2;67H[?12l[?25h[?25la.txt[54;149H8[2;68H[?12l[?25h[?25lm.txt[54;149H9[2;69H[?12l[?25h[?25ls.txt[54;148H70[2;70H[?12l[?25h[?25l[54;148H69[2;69H[?12l[?25h[?25l[54;149H8[2;68H[?12l[?25h[?25l[54;149H7[2;67H[?12l[?25h[?25l[54;149H6[2;66H[?12l[?25h[?25l[54;149H5[2;65H[?12l[?25h[?25l[54;149H4[2;64H[?12l[?25h[?25l[54;149H3[2;63H[?12l[?25h[?25l[54;149H2[2;62H[?12l[?25h[?25l[54;149H1[2;61H[?12l[?25h[?25l[54;149H0[2;60H[?12l[?25h[?25l[54;148H59[2;59H[?12l[?25h[?25l[54;149H8[2;58H[?12l[?25h[?25l[54;149H7[2;57H[?12l[?25h[?25l[54;149H6[2;56H[?12l[?25h[?25l[54;149H5[2;55H[?12l[?25h[?25l[54;149H4[2;54H[?12l[?25h[?25l[54;149H3[2;53H[?12l[?25h[?25l[54;149H2[2;52H[?12l[?25h[?25l[54;149H1[2;51H[?12l[?25h[?25l[54;149H0[2;50H[?12l[?25h[?25l[54;148H49[2;49H[?12l[?25h[?25l[54;149H8[2;48H[?12l[?25h[?25l[54;149H7[2;47H[?12l[?25h[?25l[54;149H6[2;46H[?12l[?25h[?25l[54;149H5[2;45H[?12l[?25h[?25l[54;149H4[2;44H[?12l[?25h[?25l[54;149H3[2;43H[?12l[?25h[?25l[54;149H2[2;42H[?12l[?25h[?25l[54;149H1[2;41H[?12l[?25h[?25l[54;149H0[2;40H[?12l[?25h[?25l[54;148H39[2;39H[?12l[?25h[?25l[54;149H8[2;38H[?12l[?25h[?25l[54;149H7[2;37H[?12l[?25h[?25l[54;149H6[2;36H[?12l[?25h[?25l[54;149H5[2;35H[?12l[?25h[?25l[54;149H4[2;34H[?12l[?25h[?25l[54;149H3[2;33H[?12l[?25h[?25l[54;149H2[2;32H[?12l[?25h[?25l[54;149H1[2;31H[?12l[?25h[?25l[54;149H0[2;30H[?12l[?25h[?25l[54;148H29[2;29H[?12l[?25h[?25l[54;149H8[2;28H[?12l[?25h[?25l[54;149H7[2;27H[?12l[?25h[?25l[54;149H6[2;26H[?12l[?25h[?25l[54;149H5[2;25H[?12l[?25h[?25l[54;149H4[2;24H[?12l[?25h[?25l[54;149H3[2;23H[?12l[?25h[?25l[54;149H2[2;22H[?12l[?25h[?25l[54;149H1[2;21H[?12l[?25h[?25l[54;149H0[2;20H[?12l[?25h[?25l[54;148H19[2;19H[?12l[?25h[?25l[54;149H8[2;18H[?12l[?25h[?25l[54;149H7[2;17H[?12l[?25h[?25l[54;149H6[2;16H[?12l[?25h[?25l[54;149H5[2;15H[?12l[?25h[?25l[54;149H4[2;14H[?12l[?25h[?25l[54;149H3[2;13H[?12l[?25h[?25l[54;149H2[2;12H[?12l[?25h[?25l[54;149H3[2;13H[?12l[?25h[?25l, regional-global-daily-latest.csv [38;5;130m>[m songs_artists_streams.txt[54;149H4[2;14H[?12l[?25h[?25l[31m3[m,[31m4[m regional-global-daily-latest.csv [38;5;130m>[m songs_artists_streams.txt[54;149H7[2;17H[?12l[?25h[?25l[54;149H6[2;16H[?12l[?25h[?25l[54;149H7[2;17H[?12l[?25h[?25l[54;149H8[2;18H[?12l[?25h[?25l[54;149H9[2;19H[?12l[?25h[?25l[54;148H20[2;20H[?12l[?25h[?25l[54;149H1[2;21H[?12l[?25h[?25l[54;149H2[2;22H[?12l[?25h[?25l[54;149H3[2;23H[?12l[?25h[?25l[54;149H4[2;24H[?12l[?25h[?25l[54;149H5[2;25H[?12l[?25h[?25l[54;149H6[2;26H[?12l[?25h[?25l[54;149H7[2;27H[?12l[?25h[?25l[54;149H8[2;28H[?12l[?25h[?25l[54;149H9[2;29H[?12l[?25h[?25l[54;148H30[2;30H[?12l[?25h[?25l[54;149H1[2;31H[?12l[?25h[?25l[54;149H2[2;32H[?12l[?25h[?25l[54;149H3[2;33H[?12l[?25h[?25l[54;149H4[2;34H[?12l[?25h[?25l[54;149H5[2;35H[?12l[?25h[?25l[54;149H6[2;36H[?12l[?25h[?25l[54;149H7[2;37H[?12l[?25h[?25l[54;149H8[2;38H[?12l[?25h[?25l[54;149H9[2;39H[?12l[?25h[?25l[54;148H40[2;40H[?12l[?25h[?25l[54;149H1[2;41H[?12l[?25h[?25l[54;149H2[2;42H[?12l[?25h[?25l[54;149H3[2;43H[?12l[?25h[?25l[54;149H4[2;44H[?12l[?25h[?25l[54;149H5[2;45H[?12l[?25h[?25l[54;149H6[2;46H[?12l[?25h[?25l[54;149H7[2;47H[?12l[?25h[?25l[54;149H8[2;48H[?12l[?25h[?25l[54;149H9[2;49H[?12l[?25h[?25l[54;148H50[2;50H[?12l[?25h[?25l[54;149H1[2;51H[?12l[?25h[?25l[54;149H2[2;52H[?12l[?25h[?25l[54;149H3[2;53H[?12l[?25h[?25l[54;149H4[2;54H[?12l[?25h[?25l[54;149H5[2;55H[?12l[?25h[?25l[54;149H6[2;56H[?12l[?25h[?25l[54;149H7[2;57H[?12l[?25h[?25l[54;149H8[2;58H[?12l[?25h[?25l[54;149H9[2;59H[?12l[?25h[?25l[54;148H60[2;60H[?12l[?25h[?25l[54;149H1[2;61H[?12l[?25h[?25l[54;149H2[2;62H[?12l[?25h[?25l[54;149H3[2;63H[?12l[?25h[?25l[54;149H4[2;64H[?12l[?25h[?25l[54;149H5[2;65H[?12l[?25h[?25l[54;149H6[2;66H[?12l[?25h[?25l[54;149H7[2;67H[?12l[?25h[?25l[54;149H8[2;68H[?12l[?25h[?25l[54;149H9[2;69H[?12l[?25h[?25l[54;148H70[2;70H[?12l[?25h[?25l[54;149H1[2;71H[?12l[?25h[?25l[54;149H2[2;72H[?12l[?25h[?25l[54;149H3[2;73H[?12l[?25h[?25l[54;149H4[2;74H[?12l[?25h[?25l[54;149H5[2;75H[?12l[?25h[?25l[54;149H6[2;76H[?12l[?25h[?25l[54;149H7[2;77H[?12l[?25h[?25l[54;149H8[2;78H[?12l[?25h[54;1H[K[2;77H[?25l[54;146H2,77[10CAll[2;77H[?12l[?25h[?25l[54;146H[K[54;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"myScriptforLog.sh" 2L, 186C written
+[?1l>[?12l[?25h[?1049l]0;emamedal@sol28:~[emamedal@sol28 ~]$ cat myScriptforLog.sh 
+wget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/LAB5/regional-global-daily-latest.csv
+cut -d, -f 2,3,4 regional-global-daily-latest.csv > songs_artists_streams.txt
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ bash myScriptforLog.sh 
+--2020-09-25 20:45:57--  https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/LAB5/regional-global-daily-latest.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 199.232.64.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|199.232.64.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 19695 (19K) [text/plain]
+Saving to: ‘regional-global-daily-latest.csv.7’
+
+ 0% [                                                                                                                          ] 0           --.-K/s              100%[=========================================================================================================================>] 19,695      --.-K/s   in 0.001s  
+
+2020-09-25 20:46:02 (34.6 MB/s) - ‘regional-global-daily-latest.csv.7’ saved [19695/19695]
+
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ ls
+chart_singer.txt      myScript2.sh                      regional-global-daily-latest.csv.1  regional-global-daily-latest.csv.5  session.log
+chart_songs_only.txt  myScriptforLog.sh                 regional-global-daily-latest.csv.2  regional-global-daily-latest.csv.6  song_artist.txt
+chart_songs.txt       myScript.sh                       regional-global-daily-latest.csv.3  regional-global-daily-latest.csv.7  songs_artists_streams.txt
+LinkedList.java       regional-global-daily-latest.csv  regional-global-daily-latest.csv.4  screen.log
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ cat -n songs_artists_streams.txt 
+     1	,,"Note that these figures are generated using a formula that protects against any artificial inflation of chart positions."
+     2	"Track Name",Artist,Streams
+     3	"Mood (feat. Iann Dior)",24kGoldn,5417667
+     4	"WAP (feat. Megan Thee Stallion)","Cardi B",5214522
+     5	Hawái,Maluma,4253112
+     6	Dynamite,BTS,3614625
+     7	"Holy (feat. Chance The Rapper)","Justin Bieber",3602962
+     8	"Lemonade (feat. Gunna, Don Toliver & NAV)","Internet Money"
+     9	"Watermelon Sugar","Harry Styles",3213766
+    10	"Blinding Lights","The Weeknd",3179625
+    11	"Savage Love (Laxed - Siren Beat)","Jawsh 685",3039274
+    12	"ROCKSTAR (feat. Roddy Ricch)",DaBaby,2889241
+    13	"For The Night (feat. Lil Baby & DaBaby)","Pop Smoke",2763294
+    14	"Laugh Now Cry Later (feat. Lil Durk)",Drake,2729843
+    15	"Head & Heart (feat. MNEK)","Joel Corry",2499769
+    16	Heather,"Conan Gray",2409793
+    17	"POPSTAR (feat. Drake)","DJ Khaled",2385231
+    18	"you broke me first","Tate McRae",2385151
+    19	"Relación - Remix",Sech,2152549
+    20	"Roses - Imanbek Remix","SAINt JHN",2147439
+    21	"Mood Swings (feat. Lil Tjay)","Pop Smoke",2072681
+    22	"Breaking Me",Topic,2070820
+    23	"Ice Cream (with Selena Gomez)",BLACKPINK,2061259
+    24	"Ay, DiOs Mío!","KAROL G"
+    25	"UN DIA (ONE DAY) (Feat. Tainy)","J Balvin",1917480
+    26	"La Curiosidad","Jay Wheeler",1891367
+    27	"Dance Monkey","Tones And I",1787560
+    28	"Come & Go (with Marshmello)","Juice WRLD",1786939
+    29	"Someone You Loved","Lewis Capaldi",1752571
+    30	"La Jeepeta - Remix","Nio Garcia",1723933
+    31	"Before You Go","Lewis Capaldi",1669216
+    32	"Tattoo - Remix with Camilo","Rauw Alejandro",1662739
+    33	Caramelo,Ozuna,1638263
+    34	"death bed (coffee for your head)",Powfu,1613239
+    35	"Take You Dancing","Jason Derulo",1581775
+    36	"Midnight Sky","Miley Cyrus",1581651
+    37	"Rain On Me (with Ariana Grande)","Lady Gaga",1551637
+    38	"Wishing Well","Juice WRLD",1548784
+    39	"WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) - Remix","Jack Harlow"
+    40	"Blueberry Faygo","Lil Mosey",1457364
+    41	"Go Crazy","Chris Brown",1420123
+    42	"Agua (with J Balvin) - Music From ""Sponge On The Run"" Movie",Tainy,1410407
+    43	"Me Gusta (with Cardi B & Myke Towers)",Anitta,1377264
+    44	"Don't Start Now","Dua Lipa",1348343
+    45	"Kings & Queens","Ava Max",1335204
+    46	"Una Locura",Ozuna,1317855
+    47	"Stuck with U (with Justin Bieber)","Ariana Grande",1304560
+    48	"Mad at Disney","salem ilese",1291059
+    49	"Mi Cuarto","Jerry Di",1289092
+    50	"GREECE (feat. Drake)","DJ Khaled",1274673
+    51	"Break My Heart","Dua Lipa",1262858
+    52	"Djadja (feat. Maluma) - Remix","Aya Nakamura",1258956
+    53	"How You Like That",BLACKPINK,1236952
+    54	Diamonds,"Sam Smith",1230894
+    55	goosebumps,"Travis Scott",1210871
+    56	"Smile (with The Weeknd)","Juice WRLD",1194289
+    57	Circles,"Post Malone",1183867
+    58	"ily (i love you baby) (feat. Emilee)","Surf Mesa",1179743
+    59	"The Woo (feat. 50 Cent & Roddy Ricch)","Pop Smoke",1168601
+    60	"The Box","Roddy Ricch",1167111
+    61	"Put Your Records On","Ritt Momney",1159362
+    62	"Toosie Slide",Drake,1139425
+    63	"La Tóxica",Farruko,1135586
+    64	"Lucid Dreams","Juice WRLD",1114672
+    65	"Adore You","Harry Styles",1107428
+    66	"Still Don't Know My Name",Labrinth,1102542
+    67	"Party Girl",StaySolidRocky,1094530
+    68	Falling,"Trevor Daniel",1078395
+    69	"Intentions (feat. Quavo)","Justin Bieber",1073893
+    70	"Sunflower - Spider-Man: Into the Spider-Verse","Post Malone",1065722
+    71	"Mamichula - con Nicki Nicole",Trueno,1065490
+    72	"Ayer Me Llamó Mi Ex (feat. Lenny Santos)",KHEA,1060663
+    73	"What You Know Bout Love","Pop Smoke",1060454
+    74	Robbery,"Juice WRLD",1055845
+    75	"HIGHEST IN THE ROOM","Travis Scott",1051842
+    76	"SICKO MODE","Travis Scott",1040587
+    77	Memories,"Maroon 5",1040316
+    78	Señorita,"Shawn Mendes",1039684
+    79	"Lean (feat. Towy, Osquel, Beltito & Sammy & Falsetto)"
+    80	Despeinada,Ozuna,1024038
+    81	Tusa,"KAROL G",1022445
+    82	"my ex's best friend (with blackbear)","Machine Gun Kelly",1018625
+    83	Relación,Sech,1013790
+    84	MAMACITA,"Black Eyed Peas",1005403
+    85	"Electric Love",BØRNS,985357
+    86	"bad guy","Billie Eilish",978883
+    87	"lovely (with Khalid)","Billie Eilish",969599
+    88	"Wolves (feat. Post Malone)","Big Sean",959218
+    89	Dior,"Pop Smoke",934430
+    90	ROXANNE,"Arizona Zervas",929872
+    91	Shallow,"Lady Gaga",929749
+    92	"Jerusalema (feat. Nomcebo Zikode)","Master KG",897041
+    93	"Caramelo - Remix",Ozuna,894514
+    94	"Hasta Que Dios Diga","Anuel AA",879465
+    95	Jeans,"Justin Quiles",876904
+    96	Believer,"Imagine Dragons",870201
+    97	"Stunnin' (feat. Harm Franklin)","Curtis Waters",869158
+    98	"You Got It",Vedo,867231
+    99	"If the World Was Ending - feat. Julia Michaels","JP Saxe",864876
+   100	Falling,"Harry Styles",860151
+   101	"Life Is Good (feat. Drake)",Future,860042
+   102	"OK Not To Be OK",Marshmello,854848
+   103	"THE SCOTTS","THE SCOTTS",852133
+   104	cardigan,"Taylor Swift",849133
+   105	"In Your Eyes","The Weeknd",847670
+   106	"Say So","Doja Cat",843670
+   107	Azul,"J Balvin",842711
+   108	"Don Don","Daddy Yankee",836597
+   109	"Ride It",Regard,828419
+   110	"Bande organisée",Jul,825888
+   111	"Lets Link",WhoHeem,825204
+   112	"Be Like That - feat. Swae Lee & Khalid","Kane Brown",824941
+   113	"TKN (feat. Travis Scott)",ROSALÍA,821352
+   114	"everything i wanted","Billie Eilish",819328
+   115	"Se Te Nota (with Guaynaa)","Lele Pons",807730
+   116	"Oh Juliana",Niack,807107
+   117	Favorito,Camilo,802635
+   118	"Jocelyn Flores",XXXTENTACION,795679
+   119	"Sunday Best",Surfaces,794699
+   120	"Got It On Me","Pop Smoke",792180
+   121	"Tick Tock (feat. 24kGoldn)","Clean Bandit",786814
+   122	"Say You Won't Let Go","James Arthur",785950
+   123	"Parce (feat. Justin Quiles)",Maluma,781702
+   124	"All Girls Are The Same","Juice WRLD",779291
+   125	"feel something","Bea Miller",777617
+   126	"my future","Billie Eilish",773516
+   127	Supalonely,BENEE,766205
+   128	"After Party","Don Toliver",764564
+   129	"Elegí (feat. Dímelo Flow)","Rauw Alejandro",758569
+   130	"Be Kind (with Halsey)",Marshmello,756410
+   131	"Martin & Gina","Polo G",746102
+   132	"Play Date","Melanie Martinez",744015
+   133	"PORFA Remix ( Feat. Maluma, Nicky Jam, Sech) - Remix"
+   134	"Hello (feat. A Boogie Wit da Hoodie)","Pop Smoke",741907
+   135	Madrid,Maluma,740708
+   136	"hot girl bummer",blackbear,740050
+   137	"Yo Perreo Sola","Bad Bunny",737629
+   138	SAD!,XXXTENTACION,736967
+   139	Perfect,"Ed Sheeran",736573
+   140	"Bohemian Rhapsody - 2011 Mix",Queen,735328
+   141	"I Don't Care (with Justin Bieber)","Ed Sheeran",734901
+   142	"Tap In",Saweetie,732093
+   143	"7 rings","Ariana Grande",732002
+   144	"Over Now (with The Weeknd)","Calvin Harris",730628
+   145	"Godzilla (feat. Juice WRLD)",Eminem,725715
+   146	Daisy,Ashnikko,723446
+   147	"Are You Bored Yet? (feat. Clairo)",Wallows,722776
+   148	"Shape of You","Ed Sheeran",720898
+   149	"Investe Em Mim","Jonas Esticado",717916
+   150	"Someone To You",BANNERS,713777
+   151	Safaera,"Bad Bunny",712256
+   152	"rockstar (feat. 21 Savage)","Post Malone",710340
+   153	Rojo,"J Balvin",709373
+   154	"Sweater Weather","The Neighbourhood",691941
+   155	"when the party's over","Billie Eilish",686409
+   156	"Quiéreme Mientras Se Pueda","Manuel Turizo",678930
+   157	"All of Me","John Legend",667625
+   158	"Be Alright","Dean Lewis",657995
+   159	Secrets,Regard,653825
+   160	"WHATS POPPIN","Jack Harlow",653819
+   161	"Get You The Moon (feat. Snøw)",Kina,653177
+   162	Righteous,"Juice WRLD",651961
+   163	21,"Polo G",651704
+   164	"exile (feat. Bon Iver)","Taylor Swift",650643
+   165	"24 (feat. Lil Baby)","Money Man",649248
+   166	"Recairei - Ao Vivo","Os Barões Da Pisadinha",648602
+   167	"Blastoff (feat. Juice Wrld & Trippie Redd)","Internet Money",647720
+   168	"No Guidance (feat. Drake)","Chris Brown",646992
+   169	"Tak Tiki Tak","Harry Nach",646760
+   170	"Star Shopping","Lil Peep",642552
+   171	"Hate The Other Side (with Marshmello & The Kid Laroi)","Juice WRLD",639502
+   172	Happier,Marshmello,638720
+   173	+Linda,Dalex,637029
+   174	"Beautiful People (feat. Khalid)","Ed Sheeran",636582
+   175	GOOBA,6ix9ine,634421
+   176	Moonlight,XXXTENTACION,634192
+   177	"Dolly (with Lil Uzi Vert)","Lil Tecca",634109
+   178	"Without Me",Halsey,634068
+   179	"The Less I Know The Better","Tame Impala",634054
+   180	"Money Trees","Kendrick Lamar",633968
+   181	Conversations,"Juice WRLD",633748
+   182	"Chicago Freestyle (feat. Giveon)",Drake,632971
+   183	"DEUX TOILES DE MER",Damso,631650
+   184	"Boy With Luv (feat. Halsey)",BTS,629599
+   185	"Take Me To Church",Hozier,624343
+   186	"GO (feat. Juice WRLD)","The Kid LAROI",622525
+   187	"OUT WEST (feat. Young Thug)",JACKBOYS,620272
+   188	Bruises,"Lewis Capaldi",614548
+   189	Jangueo,"Alex Rose",613491
+   190	"Head Shoulders Knees & Toes (feat. Norma Jean Martine)",Ofenbach,613101
+   191	"Lose Control",MEDUZA,613089
+   192	"Let Her Go",Passenger,612115
+   193	July,"Noah Cyrus",610423
+   194	"Something Just Like This","The Chainsmokers",608918
+   195	"It's You","Ali Gatie",605192
+   196	"10,000 Hours (with Justin Bieber)","Dan + Shay"
+   197	"BXL ZOO",Damso,602800
+   198	"CÓMO SE SIENTE - Remix","Jhay Cortez",602682
+   199	Riptide,"Vance Joy",600657
+   200	"Lose Somebody",Kygo,600325
+   201	"El Mismo Aire - con Pablo Alborán",Camilo,595736
+   202	"Daddy Issues","The Neighbourhood",592678
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ echo "Making an animated gif"
+Making an animated gif
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ echo [K[K[K[K[Kbw[Kewq[K[K[Krew install im[K[Kma[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho "Making an animated gif"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat -n songs_artists_streams.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kbash myScriptforLog.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho > myScriptforLog.sh"Next step is to make a script"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcat -n chart_songs_only.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41@ut -d, -f 2 regional-global-daily-latest.csv >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/LAB5/regional-global-daily-latest.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Khelp[2Plssudo apt-get install imagemagick[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kvi screen.log [4Pscreen.logecho screen.log [1Pcat[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscript screen.logls[Kcat -n song_artist.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kbash myScript.sh ls[Kbash myScript.sh ls[Krm -d regional-global-daily-latest.csv.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm -d song_artist.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm -d song_artist.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm -d regional-global-daily-latest.csv.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kbash myScript.sh ls[Kbash myScript.sh ls[Kbash myScript.sh ls[Kcat -n song_artist.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscript screen.logls[Kcat screen.log [1@echo[C[C[C[C[C[C[C[C[C[C[C[C[6Pscreen.logvi screen.log ls[Ksudo apt-get install imagemagick[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Khelpexitwget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/LAB5/regional-global-daily-latest.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pcut -d, -f 2 regional-global-daily-latest.csv > chart_songs_only.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41Pat -n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Next step is to make a script"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P> myScriptforLog.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pvi myScriptforLog.sh [1@cat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@bash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat -n songs_artists_streams.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pecho "Making an animated gif"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kbrew install imagemagick
+bash: brew: command not found...
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ cont. in separate file[1@e[C[1@c[1@h[1@o[1@ [1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+cont. in separate file
+]0;emamedal@sol28:~[emamedal@sol28 ~]$ exit
+exit
+
+Script done on Fri 25 Sep 2020 08:51:41 PM EDT
