@@ -1,8 +1,10 @@
+Below are listed all commands I used to work with Spotify .csv file in order to better understand commands in Linux terminal
+
 //retrieving from the web the .csv file
 	$ wget https://raw.githubusercontent.com/FixelPlus/test_CISC3140/master/LAB5/regional-global-daily-latest.csv
 
 //copy the content of the second column from .csv file to newly
-//created .txt document. Separate wit comma using Ò-d,Ó option. 
+//created .txt document. Separate wit comma using Ã’-d,Ã“ option. 
 	$ cut -d, -f 2 regional-global-daily-latest.csv > chart_songs.txt
 
 // display the content of the .txt file 
