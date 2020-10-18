@@ -1,2 +1,1 @@
-# Reading-speed
-The Web application that lets you test your reading speed 
+# Labs and materials for 3140 (Large Scale Web Apps Development)  class 
