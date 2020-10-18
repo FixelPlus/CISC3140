@@ -3,18 +3,17 @@ Script started on Fri Sep 25 21:01:36 2020
 The default interactive shell is now zsh.
 To update your account to use zsh, please run `chsh -s /bin/zsh`.
 For more details, please visit https://support.apple.com/kb/HT208050.
-[?1034hbash-3.2$ ls
+bash-3.2$ ls
 gifSession.log	myGif.gif	myGif2.gif	pgif_1.png	pgif_2.png	pgif_3.png	pgif_4.png	pgif_5.png
 bash-3.2$ brew install imagemagick
-[33mWarning:[0m imagemagick 7.0.10-30_1 is already installed and up-to-date
+Warning: imagemagick 7.0.10-30_1 is already installed and up-to-date
 To reinstall 7.0.10-30_1, run `brew reinstall imagemagick`
-bash-3.2$ convert -delay 40 -loop 0 *.png -scale 480x270 myGif.gif[Kf[1P[1@3[1P[1@4[1P[1P[1@4[1@1[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf.gifo.gifr.gif[1P.gif[1P.gif[1P.gifF.gifo.gifr.gif[1P.gif[1P.gif[1P.gifS.gife.gif[1P.gif[1P.gifS.gife.gifs.gifs.gifi.gifo.gifn.gif
-bash-3.2$ open[K[K[K[Kw[Kls
+bash-3.2$ convert -delay 42 -loop 0 *.png -scale 480x270 myGifSession.gif
+bash-3.2$ ls
 gifSession.log		myGif2.gif		pgif_1.png		pgif_3.png		pgif_5.png
 myGif.gif		myGifSession.gif	pgif_2.png		pgif_4.png
-bash-3.2$ open myGifSession.gif 
-bash-3.2$ echo "For best experience please opne [K[K[Ken gif file in your de[Kefault browser"[C[C[C[C[1@t[1@h[1@i[1@s[1@ [1@t[1@h[1@e[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-For the best experience please open this gif file in your default browser
+bash-3.2$ open myGifSession.gif 
+bash-3.2$ echo "For the best experience please open this gif file in your default browser"
 bash-3.2$ exit
 exit
 
